@@ -1,0 +1,11 @@
+digraph {
+	"while True" [label="while True"]
+	"while True" -> "if x > 3"
+	"while True" -> "if x < 3"
+	"if x > 3" [label="if x > 3"]
+	"if x > 3" -> "break out loop"
+	"if x < 3" [label="if x < 3"]
+	"if x < 3" -> "print i"
+	"print i" [label="print i"]
+	"print i" -> "i =+ 1"
+}
